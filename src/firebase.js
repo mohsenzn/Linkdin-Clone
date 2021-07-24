@@ -1,20 +1,17 @@
-import firebase from "firebase";
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import firebase from 'firebase';
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBqwBckIk_szLgSHBTqunwVOr22nOsIpfY",
-  authDomain: "linkdin-fdefe.firebaseapp.com",
-  projectId: "linkdin-fdefe",
-  storageBucket: "linkdin-fdefe.appspot.com",
-  messagingSenderId: "969703041161",
-  appId: "1:969703041161:web:51c0b07d0e046ca18efe58",
-  measurementId: "G-MP5DT5RQVL",
+  apiKey: "AIzaSyC9fR0xPBI7kMEXKWZS4DVShvFjOmmBZqE",
+  authDomain: "linkedin-764e7.firebaseapp.com",
+  projectId: "linkedin-764e7",
+  storageBucket: "linkedin-764e7.appspot.com",
+  messagingSenderId: "66723401769",
+  appId: "1:66723401769:web:49f5b23deb3de389548c38"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
-
 const db = firebaseApp.firestore();
 
 const auth = firebase.auth();
 
-export default db;
-export { auth };
+export {db, auth};

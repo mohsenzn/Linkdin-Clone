@@ -1,4 +1,4 @@
-.sidebar {
+ .sidebar {
   position: sticky;
   flex: 0.2;
   top: 80px;
@@ -19,9 +19,9 @@
   padding-bottom: 10px;
 }
 
-.sidebar__avatar {
+ .sidebar__avatar {
   margin-bottom: 10px;
-}
+} 
 
 .sidebar__top > img {
   margin-bottom: -20px;
@@ -30,7 +30,7 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: cover;
-}
+} 
 
 .sidebar_stat {
   margin-top: 10px;
@@ -38,7 +38,7 @@
   justify-content: space-between;
 }
 
-.sidebar_stat > p {
+.sidebar_stat > p{
   color: gray;
   font-size: 13px;
   font-weight: 600;
@@ -97,7 +97,7 @@
   margin-left: 5px;
 }
 
-.sidebar__bottom > p {
+.sidebar__bottom > p{
   font-size: 13px;
   padding-bottom: 10px;
 }
